@@ -1,0 +1,17 @@
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+    "name": "Akhil",
+    "password": "password"
+}
+
+###
+
+GET http://localhost:3000/uploadFile
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiQWtoaWwiLCJwYXNzd29yZCI6InBhc3N3b3JkIiwiaWF0IjoxNTkwMzEzOTAwLCJleHAiOjE1OTAzMTc1MDB9.Dt1j3FIelm2Gw84EqJLw2EVcG0VvsRF1hkCzUIrePrw
+Content-Type: application/json
+
+{
+    "url": "https://i.pinimg.com/236x/ee/29/de/ee29dec87ee072cb2f8c43a667dc73bc.jpg"
+}
